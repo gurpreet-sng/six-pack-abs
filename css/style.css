@@ -165,7 +165,92 @@ body{
     margin-right: 10px;
 }
 .section-title{
-    
+    text-align: center;
+}
+.section-title h6{
+    color: #15AAD4;
+    font-family: 'AgencyFBBold';
+    font-size: 32px;
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.section-title h6:before{
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    background-color: #15AAD4;
+    top: 18px;
+    bottom: 0px;
+    left: -70px;
+}
+.section-title h2{
+    color: #2B2024;
+    font-family: 'AgencyFBBold';
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.space-top-bottom150{
+    padding: 150px 0px;
+}
+.texture-top{
+    position: relative;
+}
+.texture-top:before{
+    content: "";
+    background-image: url(../images/Vector-top.png);
+    background-repeat: no-repeat;
+    height: 166px;
+    position: absolute;
+    top: -85px;
+    width: 100%;
+}
+.Search-gym-section{
+    background-color: #fafafa;
+}
+.search-gym-by-box{
+    border: 1px solid #DEDEDE;
+    padding: 30px;
+}
+.search-gym-by-box h4{
+    color: #2B2024;
+    font-size: 32px;
+    font-family: 'AgencyFBBold';
+    text-transform: uppercase;
+}
+.search-gym-by-box img{
+    margin-bottom: 20px;
+}
+.search-gym-by-box ul{
+    margin: 0px;
+}
+.search-gym-by-box ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'AgencyFBBold';
+    color: #928d8f;
+}
+.search-gym-by-box ul li{
+    list-style: none;
+    list-style: square;
+    color: #928d8f;
+}
+.more-info{
+    text-decoration: none;
+}
+.more-info p{
+    color: #2B2024;
+    font-size: 22px;
+    font-family: 'AgencyFBBold';
+    margin: 0px;
+}
+.more-info {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
 }
 @media only screen and (min-width: 1920px){
 
